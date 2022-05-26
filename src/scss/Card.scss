@@ -14,17 +14,33 @@
 
 }
 
+.txt{
+    opacity: 0;
+    transition: 2s;
+    ;}
+
 section{
     border-radius: 2px;
     background-color: rgb(255, 255, 255);
     margin-top: 250px;
+    transition: 1s;    
+    height: 350px;
+
 
 
     &:hover{
         transition: 1s;
         margin-top: 0px;
         height: 100%;
+   
+    .txt{
+        opacity: 1;;
+        transition: 2s;
+
     }
+
+    }
+
 }
 
 

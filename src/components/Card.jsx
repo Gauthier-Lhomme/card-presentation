@@ -18,6 +18,7 @@ const Card = () => {
         </section>
        
       </article>
+    
     </div>
   );
 };
