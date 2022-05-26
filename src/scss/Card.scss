@@ -1,0 +1,34 @@
+.card{
+    margin: 30vh;
+    height: 350px;
+    width: 350px;
+    border-radius: 13px;
+    overflow: hidden;
+}
+
+.thumb{
+    background: url(../scss/kirby.JPG)no-repeat center;
+    background-size: cover;
+    background-position: 0% 2200%;
+
+
+}
+
+section{
+    border-radius: 2px;
+    background-color: rgb(255, 255, 255);
+    margin-top: 250px;
+
+
+    &:hover{
+        transition: 1s;
+        margin-top: 0px;
+        height: 100%;
+    }
+}
+
+
+
+.info{
+    position: absolute;
+}
